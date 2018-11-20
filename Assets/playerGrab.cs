@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class playerGrab : MonoBehaviour {
 
-    public GameObject hand;
+    public GameObject grabbingObject;
 
-    public GameObject myHand;
+    public GameObject grabbed;
 
     bool inhands = false;
 
@@ -15,7 +15,7 @@ public class playerGrab : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        handPosition = hand.transform.position;
+        handPosition = grabbingObject.transform.position;
 	}
 	
 	// Update is called once per frame
@@ -24,14 +24,16 @@ public class playerGrab : MonoBehaviour {
            {
             if (!inhands)
             {
-                hand.transform.SetParent(myHand.transform);
-                hand.transform.localPosition = myHand.transform.localPosition;
+                grabbingObject.transform.SetParent(grabbed.transform);
+                grabbingObject.transform.localPosition = grabbed.transform.localPosition;
                 inhands = true;
             }
             else if(inhands)
             {
-                hand.transform.SetParent(null);
-                hand.transform.localPosition = handPosition;
+                this.GetComponent<playerGrab>().enabled = false;
+                grabbingObject.transform.SetParent(null);
+                grabbingObject.transform.localPosition = this.transform.localPosition;
+                //hand.transform.localPosition = handPosition;
                 inhands = false;
             }
             }
