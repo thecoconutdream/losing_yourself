@@ -160,6 +160,8 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrVRHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+     <Compile Include="Assets\loadingScene2.cs" />
+     <Compile Include="Assets\loadingScenes.cs" />
      <Compile Include="Assets\playerGrab.cs" />
      <Compile Include="Assets\playerWalk.cs" />
      <Compile Include="Assets\stairs.cs" />
