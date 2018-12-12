@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: ebf7e73e56c6adb48bff503013268eb1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arch-door
+    100002: Cylinder004
+    100004: Cylinder005
+    100006: decoration-rooftop
+    100008: glass-circle
+    100010: glass-circle 1
+    100012: glass-circle001
+    100014: glass-circle002
+    100016: glass-circle003
+    100018: glass-circle004
+    100020: glass-circle005
+    100022: glass-circle006
+    100024: glass-circle007
+    100026: glass-circle008
+    100028: glass-circle009
+    100030: glass-circle010
+    100032: glass-circle011
+    100034: glass-circle012
+    100036: glass-circle013
+    100038: glass-circle014
+    100040: glass-circle015
+    100042: glass-circle016
+    100044: glass-egg
+    100046: glass-egg001
+    100048: glass-egg002
+    100050: glass-egg003
+    100052: glass-egg004
+    100054: glass-egg005
+    100056: glass-egg006
+    100058: glass-egg007
+    100060: glass-egg008
+    100062: glass-egg009
+    100064: glass-egg010
+    100066: glass-egg011
+    100068: glass-egg012
+    100070: glass-egg013
+    100072: glass-egg014
+    100074: glass-egg015
+    100076: glass-frame
+    100078: glass-frame001
+    100080: glass-tri-big
+    100082: glass-tri-big 1
+    100084: glass-tri-big 2
+    100086: glass-tri-big 3
+    100088: glass-tri-big 4
+    100090: glass-tri-big 5
+    100092: glass-tri-big 6
+    100094: glass-tri-big 7
+    100096: glass-tri-big001
+    100098: glass-tri-big002
+    100100: glass-tri-big003
+    100102: glass-tri-big004
+    100104: glass-tri-big005
+    100106: glass-tri-big006
+    100108: glass-tri-big007
+    100110: glass-tri-big008
+    100112: glass-tri-small
+    100114: glass-tri-small 1
+    100116: glass-tri-small 2
+    100118: glass-tri-small 3
+    100120: glass-tri-small 4
+    100122: glass-tri-small 5
+    100124: glass-tri-small 6
+    100126: glass-tri-small001
+    100128: glass-tri-small002
+    100130: glass-tri-small003
+    100132: glass-tri-small004
+    100134: glass-tri-small005
+    100136: glass-tri-small006
+    100138: glass-tri-small007
+    100140: glass-triangle-small
+    100142: glass-triangle-small001
+    100144: gothic-window
+    100146: gothic-window001
+    100148: Plane001
+    100150: roof
+    100152: roof-tower
+    100154: Shape112
+    100156: Sphere008
+    100158: tower-body
+    100160: tower-complete
+    100162: //RootNode
+    100164: window
+    100166: window02
+    400000: arch-door
+    400002: Cylinder004
+    400004: Cylinder005
+    400006: decoration-rooftop
+    400008: glass-circle
+    400010: glass-circle 1
+    400012: glass-circle001
+    400014: glass-circle002
+    400016: glass-circle003
+    400018: glass-circle004
+    400020: glass-circle005
+    400022: glass-circle006
+    400024: glass-circle007
+    400026: glass-circle008
+    400028: glass-circle009
+    400030: glass-circle010
+    400032: glass-circle011
+    400034: glass-circle012
+    400036: glass-circle013
+    400038: glass-circle014
+    400040: glass-circle015
+    400042: glass-circle016
+    400044: glass-egg
+    400046: glass-egg001
+    400048: glass-egg002
+    400050: glass-egg003
+    400052: glass-egg004
+    400054: glass-egg005
+    400056: glass-egg006
+    400058: glass-egg007
+    400060: glass-egg008
+    400062: glass-egg009
+    400064: glass-egg010
+    400066: glass-egg011
+    400068: glass-egg012
+    400070: glass-egg013
+    400072: glass-egg014
+    400074: glass-egg015
+    400076: glass-frame
+    400078: glass-frame001
+    400080: glass-tri-big
+    400082: glass-tri-big 1
+    400084: glass-tri-big 2
+    400086: glass-tri-big 3
+    400088: glass-tri-big 4
+    400090: glass-tri-big 5
+    400092: glass-tri-big 6
+    400094: glass-tri-big 7
+    400096: glass-tri-big001
+    400098: glass-tri-big002
+    400100: glass-tri-big003
+    400102: glass-tri-big004
+    400104: glass-tri-big005
+    400106: glass-tri-big006
+    400108: glass-tri-big007
+    400110: glass-tri-big008
+    400112: glass-tri-small
+    400114: glass-tri-small 1
+    400116: glass-tri-small 2
+    400118: glass-tri-small 3
+    400120: glass-tri-small 4
+    400122: glass-tri-small 5
+    400124: glass-tri-small 6
+    400126: glass-tri-small001
+    400128: glass-tri-small002
+    400130: glass-tri-small003
+    400132: glass-tri-small004
+    400134: glass-tri-small005
+    400136: glass-tri-small006
+    400138: glass-tri-small007
+    400140: glass-triangle-small
+    400142: glass-triangle-small001
+    400144: gothic-window
+    400146: gothic-window001
+    400148: Plane001
+    400150: roof
+    400152: roof-tower
+    400154: Shape112
+    400156: Sphere008
+    400158: tower-body
+    400160: tower-complete
+    400162: //RootNode
+    400164: window
+    400166: window02
+    2100000: No Name
+    2300000: arch-door
+    2300002: Cylinder004
+    2300004: Cylinder005
+    2300006: glass-circle 1
+    2300008: glass-circle001
+    2300010: glass-circle002
+    2300012: glass-circle003
+    2300014: glass-circle004
+    2300016: glass-circle005
+    2300018: glass-circle006
+    2300020: glass-circle007
+    2300022: glass-circle009
+    2300024: glass-circle010
+    2300026: glass-circle011
+    2300028: glass-circle012
+    2300030: glass-circle013
+    2300032: glass-circle014
+    2300034: glass-circle015
+    2300036: glass-circle016
+    2300038: glass-egg001
+    2300040: glass-egg002
+    2300042: glass-egg003
+    2300044: glass-egg004
+    2300046: glass-egg005
+    2300048: glass-egg006
+    2300050: glass-egg007
+    2300052: glass-egg009
+    2300054: glass-egg010
+    2300056: glass-egg011
+    2300058: glass-egg012
+    2300060: glass-egg013
+    2300062: glass-egg014
+    2300064: glass-egg015
+    2300066: glass-frame
+    2300068: glass-frame001
+    2300070: glass-tri-big 1
+    2300072: glass-tri-big 2
+    2300074: glass-tri-big 3
+    2300076: glass-tri-big 4
+    2300078: glass-tri-big 5
+    2300080: glass-tri-big 6
+    2300082: glass-tri-big 7
+    2300084: glass-tri-big002
+    2300086: glass-tri-big003
+    2300088: glass-tri-big004
+    2300090: glass-tri-big005
+    2300092: glass-tri-big006
+    2300094: glass-tri-big007
+    2300096: glass-tri-big008
+    2300098: glass-tri-small 1
+    2300100: glass-tri-small 2
+    2300102: glass-tri-small 3
+    2300104: glass-tri-small 4
+    2300106: glass-tri-small 5
+    2300108: glass-tri-small 6
+    2300110: glass-tri-small001
+    2300112: glass-tri-small003
+    2300114: glass-tri-small004
+    2300116: glass-tri-small005
+    2300118: glass-tri-small006
+    2300120: glass-tri-small007
+    2300122: glass-triangle-small
+    2300124: glass-triangle-small001
+    2300126: gothic-window
+    2300128: gothic-window001
+    2300130: Plane001
+    2300132: roof-tower
+    2300134: Sphere008
+    2300136: tower-body
+    3300000: arch-door
+    3300002: Cylinder004
+    3300004: Cylinder005
+    3300006: glass-circle 1
+    3300008: glass-circle001
+    3300010: glass-circle002
+    3300012: glass-circle003
+    3300014: glass-circle004
+    3300016: glass-circle005
+    3300018: glass-circle006
+    3300020: glass-circle007
+    3300022: glass-circle009
+    3300024: glass-circle010
+    3300026: glass-circle011
+    3300028: glass-circle012
+    3300030: glass-circle013
+    3300032: glass-circle014
+    3300034: glass-circle015
+    3300036: glass-circle016
+    3300038: glass-egg001
+    3300040: glass-egg002
+    3300042: glass-egg003
+    3300044: glass-egg004
+    3300046: glass-egg005
+    3300048: glass-egg006
+    3300050: glass-egg007
+    3300052: glass-egg009
+    3300054: glass-egg010
+    3300056: glass-egg011
+    3300058: glass-egg012
+    3300060: glass-egg013
+    3300062: glass-egg014
+    3300064: glass-egg015
+    3300066: glass-frame
+    3300068: glass-frame001
+    3300070: glass-tri-big 1
+    3300072: glass-tri-big 2
+    3300074: glass-tri-big 3
+    3300076: glass-tri-big 4
+    3300078: glass-tri-big 5
+    3300080: glass-tri-big 6
+    3300082: glass-tri-big 7
+    3300084: glass-tri-big002
+    3300086: glass-tri-big003
+    3300088: glass-tri-big004
+    3300090: glass-tri-big005
+    3300092: glass-tri-big006
+    3300094: glass-tri-big007
+    3300096: glass-tri-big008
+    3300098: glass-tri-small 1
+    3300100: glass-tri-small 2
+    3300102: glass-tri-small 3
+    3300104: glass-tri-small 4
+    3300106: glass-tri-small 5
+    3300108: glass-tri-small 6
+    3300110: glass-tri-small001
+    3300112: glass-tri-small003
+    3300114: glass-tri-small004
+    3300116: glass-tri-small005
+    3300118: glass-tri-small006
+    3300120: glass-tri-small007
+    3300122: glass-triangle-small
+    3300124: glass-triangle-small001
+    3300126: gothic-window
+    3300128: gothic-window001
+    3300130: Plane001
+    3300132: roof-tower
+    3300134: Sphere008
+    3300136: tower-body
+    4300000: Plane001
+    4300002: arch-door
+    4300004: roof-tower
+    4300006: Sphere008
+    4300008: Cylinder004
+    4300010: Cylinder005
+    4300012: tower-body
+    4300014: glass-circle
+    4300016: glass-circle001
+    4300018: glass-circle002
+    4300020: glass-circle003
+    4300022: glass-circle004
+    4300024: glass-circle005
+    4300026: glass-circle006
+    4300028: glass-circle007
+    4300030: glass-egg001
+    4300032: glass-egg002
+    4300034: glass-egg003
+    4300036: glass-egg004
+    4300038: glass-egg005
+    4300040: glass-egg006
+    4300042: glass-egg007
+    4300044: glass-frame
+    4300046: glass-tri-big
+    4300048: glass-tri-big
+    4300050: glass-tri-big
+    4300052: glass-tri-big
+    4300054: glass-tri-big
+    4300056: glass-tri-big
+    4300058: glass-tri-big
+    4300060: glass-triangle-small
+    4300062: glass-tri-small
+    4300064: glass-tri-small
+    4300066: glass-tri-small
+    4300068: glass-tri-small
+    4300070: glass-tri-small
+    4300072: glass-tri-small
+    4300074: gothic-window
+    4300076: glass-circle009
+    4300078: glass-circle010
+    4300080: glass-circle011
+    4300082: glass-circle012
+    4300084: glass-circle013
+    4300086: glass-circle014
+    4300088: glass-circle015
+    4300090: glass-circle016
+    4300092: glass-egg009
+    4300094: glass-egg010
+    4300096: glass-egg011
+    4300098: glass-egg012
+    4300100: glass-egg013
+    4300102: glass-egg014
+    4300104: glass-egg015
+    4300106: glass-frame001
+    4300108: glass-tri-big002
+    4300110: glass-tri-big003
+    4300112: glass-tri-big004
+    4300114: glass-tri-big005
+    4300116: glass-tri-big006
+    4300118: glass-tri-big007
+    4300120: glass-tri-big008
+    4300122: glass-tri-small001
+    4300124: glass-triangle-small001
+    4300126: glass-tri-small003
+    4300128: glass-tri-small004
+    4300130: glass-tri-small005
+    4300132: glass-tri-small006
+    4300134: glass-tri-small007
+    4300136: gothic-window001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
