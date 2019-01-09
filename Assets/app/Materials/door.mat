@@ -77,5 +77,5 @@ Material:
     m_Colors:
     - _Color: {r: 0.6037736, g: 0.21119584, b: 0.09967959, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.3207547, g: 0.14149423, b: 0.05900677, a: 1}
     - _UnlitColor: {r: 0.16981131, g: 0.15939835, b: 0.15939835, a: 1}

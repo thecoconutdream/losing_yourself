@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 59a94ebb2fe6ccf429af720bfd077f8a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arch
+    100002: arch-column
+    100004: arch-column003
+    100006: arch-column004
+    100008: arch-column005
+    100010: arch-column006
+    100012: arch-column02
+    100014: arch-complete
+    100016: arch-complete001
+    100018: arch-complete002
+    100020: arch-supp
+    100022: arch-supp004
+    100024: arch-supp005
+    100026: arch-supp006
+    100028: arch-supp007
+    100030: arch-supp008
+    100032: arch-supp009
+    100034: arch-supp02
+    100036: arch-supp03
+    100038: arch001
+    100040: arch002
+    100042: corr-walls-floor
+    100044: corr-walls-floor001
+    100046: corr-walls-floor002
+    100048: //RootNode
+    100050: corridor
+    100052: corridor-complete
+    100054: corridor-complete001
+    100056: corridor-complete002
+    100058: corridor001
+    100060: corridor002
+    100062: floor
+    100064: floor001
+    100066: floor002
+    400000: arch
+    400002: arch-column
+    400004: arch-column003
+    400006: arch-column004
+    400008: arch-column005
+    400010: arch-column006
+    400012: arch-column02
+    400014: arch-complete
+    400016: arch-complete001
+    400018: arch-complete002
+    400020: arch-supp
+    400022: arch-supp004
+    400024: arch-supp005
+    400026: arch-supp006
+    400028: arch-supp007
+    400030: arch-supp008
+    400032: arch-supp009
+    400034: arch-supp02
+    400036: arch-supp03
+    400038: arch001
+    400040: arch002
+    400042: corr-walls-floor
+    400044: corr-walls-floor001
+    400046: corr-walls-floor002
+    400048: //RootNode
+    400050: corridor
+    400052: corridor-complete
+    400054: corridor-complete001
+    400056: corridor-complete002
+    400058: corridor001
+    400060: corridor002
+    400062: floor
+    400064: floor001
+    400066: floor002
+    2100000: No Name
+    2300000: arch
+    2300002: arch-column
+    2300004: arch-column003
+    2300006: arch-column004
+    2300008: arch-column005
+    2300010: arch-column006
+    2300012: arch-column02
+    2300014: arch-supp
+    2300016: arch-supp004
+    2300018: arch-supp005
+    2300020: arch-supp006
+    2300022: arch-supp007
+    2300024: arch-supp008
+    2300026: arch-supp009
+    2300028: arch-supp02
+    2300030: arch-supp03
+    2300032: arch001
+    2300034: arch002
+    2300036: corridor
+    2300038: corridor001
+    2300040: corridor002
+    2300042: floor
+    2300044: floor001
+    2300046: floor002
+    3300000: arch
+    3300002: arch-column
+    3300004: arch-column003
+    3300006: arch-column004
+    3300008: arch-column005
+    3300010: arch-column006
+    3300012: arch-column02
+    3300014: arch-supp
+    3300016: arch-supp004
+    3300018: arch-supp005
+    3300020: arch-supp006
+    3300022: arch-supp007
+    3300024: arch-supp008
+    3300026: arch-supp009
+    3300028: arch-supp02
+    3300030: arch-supp03
+    3300032: arch001
+    3300034: arch002
+    3300036: corridor
+    3300038: corridor001
+    3300040: corridor002
+    3300042: floor
+    3300044: floor001
+    3300046: floor002
+    4300000: arch
+    4300002: arch-column02
+    4300004: arch-column
+    4300006: arch-supp
+    4300008: arch-supp02
+    4300010: corridor
+    4300012: floor
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
