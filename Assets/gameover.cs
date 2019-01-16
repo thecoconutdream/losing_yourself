@@ -8,14 +8,22 @@ public class gameover : MonoBehaviour {
 
     public string collidingObject;
     public GameObject ending;
+    public GameObject seccondEnding;
 
     // Update is called once per frame
     void GameoverMagic ()
     {
-        ending.SetActive(true);
-        Thread.Sleep(9000);
-        SceneManager.LoadScene("TitleScreen");
-
+         if (seccondNarration.seccondStrang == 1)
+         {
+            ending.SetActive(false);
+            seccondNarration.seccondStrang = 0;
+            seccondEnding.SetActive(true);
+            }
+        else
+        {
+            seccondEnding.SetActive(false);
+            ending.SetActive(true);
+        }
     }
    
     void OnCollisionEnter(Collision coll)

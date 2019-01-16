@@ -166,7 +166,9 @@
      <Compile Include="Assets\playerGrab.cs" />
      <Compile Include="Assets\playerWalk.cs" />
      <Compile Include="Assets\sceneController.cs" />
+     <Compile Include="Assets\seccondNarration.cs" />
      <Compile Include="Assets\stairs.cs" />
+     <Compile Include="Assets\triggerStart.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />

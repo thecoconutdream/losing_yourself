@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/app/Scenes/TitleScreen.unity
+- path: Assets/app/Scenes/Scene5.unity
   isLoaded: 1
   isActive: 1
