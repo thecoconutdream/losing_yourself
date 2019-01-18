@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{514817D5-8CF8-AB96-E050-A66C4B971CD0}</ProjectGuid>
+    <ProjectGuid>{948B093F-DF86-C5E5-62B6-DAC5B9520999}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -53,6 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\app\StandardPlus\Shaders\Editor\StandardPlusGlassFullGUI.cs" />
+     <Compile Include="Assets\app\StandardPlus\Shaders\Editor\StandardPlusGlassGUI.cs" />
+     <Compile Include="Assets\app\StandardPlus\Shaders\Editor\StandardPlusGUI.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Editor\DemoInputManagerEditor.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Editor\PermissionsDemoBuildProcessor.cs" />
      <Compile Include="Assets\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
@@ -69,16 +72,16 @@
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>D:/Unity/Losing yourself/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>D:/Unity/Lose yourself/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/Unity/Losing yourself/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/Unity/Lose yourself/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/Unity/Losing yourself/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>D:/Unity/Lose yourself/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Unity/Losing yourself/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/Unity/Lose yourself/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/Programme/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -324,7 +327,7 @@
  <HintPath>D:/Programme/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>D:/Unity/Losing yourself/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>D:/Unity/Lose yourself/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/Lisa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -371,7 +374,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{B075CB3D-BA8E-0C36-5AFD-90EE82F8C44C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{E4D2FC08-26AB-9EFB-E9B0-054B1143F988}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B075CB3D-BA8E-0C36-5AFD-90EE82F8C44C}</ProjectGuid>
+    <ProjectGuid>{E4D2FC08-26AB-9EFB-E9B0-054B1143F988}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,6 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\app\StandardPlus\Shaders\EnableBakedLights.cs" />
+     <Compile Include="Assets\displayBook.cs" />
      <Compile Include="Assets\gameover.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
@@ -161,6 +163,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrVRHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+     <Compile Include="Assets\lightsOn.cs" />
      <Compile Include="Assets\loadingScene2.cs" />
      <Compile Include="Assets\loadingScenes.cs" />
      <Compile Include="Assets\playerGrab.cs" />
@@ -171,8 +174,17 @@
      <Compile Include="Assets\triggerStart.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\app\StandardPlus\Shaders\StandardPlusSpecular.shader" />
+     <None Include="Assets\app\StandardPlus\Shaders\StandardPlusGlassFullSpecular.shader" />
+     <None Include="Assets\app\StandardPlus\Shaders\StandardPlus.shader" />
+     <None Include="Assets\app\StandardPlus\Shaders\Includes\StandardPlusShadowLibrary.cginc" />
+     <None Include="Assets\app\StandardPlus\Shaders\StandardPlusGlassFull.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+     <None Include="Assets\app\StandardPlus\Shaders\StandardPlusGlass.shader" />
+     <None Include="Assets\app\StandardPlus\Shaders\Includes\StandardPlusImageBasedLighting.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\app\StandardPlus\Shaders\Includes\StandardPlusPBSLighting.cginc" />
+     <None Include="Assets\app\StandardPlus\Shaders\Includes\StandardPlusStandardInput.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
@@ -181,19 +193,27 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\app\StandardPlus\Shaders\Includes\StandardPlusGlobalIllumination.cginc" />
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-6DOF.xml" />
+     <None Include="Assets\app\StandardPlus\Shaders\Includes\StandardPlusStandardBRDF.cginc" />
      <None Include="Assets\app\Materials\toon_shader.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+     <None Include="Assets\app\StandardPlus\Shaders\Includes\StandardPlusMeta.cginc" />
      <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\app\StandardPlus\Shaders\Includes\StandardPlusLightingCommon.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\app\StandardPlus\Shaders\Includes\StandardPlusStandardCore.cginc" />
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
+     <None Include="Assets\app\StandardPlus\Shaders\Includes\StandardPlusShadow.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+     <None Include="Assets\app\StandardPlus\Shaders\Includes\StandardPlusAutoLight.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\app\StandardPlus\Shaders\StandardPlusGlassSpecular.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
      <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
@@ -201,18 +221,20 @@
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\app\StandardPlus\Shaders\Includes\StandardPlusStandardCoreForward.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\app\MaterialsShader\toonshader.shader" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>D:/Unity/Losing yourself/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>D:/Unity/Lose yourself/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/Unity/Losing yourself/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/Unity/Lose yourself/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/Unity/Losing yourself/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>D:/Unity/Lose yourself/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Unity/Losing yourself/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/Unity/Lose yourself/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/Programme/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -410,7 +432,7 @@
  <HintPath>D:/Programme/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>D:/Unity/Losing yourself/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>D:/Unity/Lose yourself/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/Lisa/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
